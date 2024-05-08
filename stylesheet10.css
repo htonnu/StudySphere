@@ -1,0 +1,304 @@
+header {
+    position: relative;
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+.fullscreen {
+  display: block;
+  width: 100%;
+  height: 34vh;
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: .5rem;
+    padding-bottom: 1%;
+    color: rgb(241, 241, 241);
+    font-family: Impact;
+    font-size: 2.8em;
+    font-weight: lighter;
+    line-height: 1.2;
+    padding-left: 3rem;
+}
+
+body {
+    font-family: 'Helvetica Neue';
+    background: rgb(199, 224, 248);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    width: 55rem;
+    height: 3rem;
+    border: 0.1rem solid #b5b5b5;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: system-ui;
+    color: rgb(48, 48, 48);
+    background-color:  rgb(241, 241, 241);
+    background-image: url("https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png");
+    background-size: 1.2rem;
+    background-position: 1rem 0.7rem; 
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    margin-top: 2.2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+}
+
+.subheading1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 3rem;
+    margin: 0;
+    color: rgb(48, 48, 48);
+    font-family: system-ui;
+    padding-top: 1.6rem;
+}
+
+.subheading2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 3rem;
+    margin: 0;
+    color: rgb(48, 48, 48);
+    font-family: system-ui;
+    padding-top: 0.8rem;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(199, 224, 248);
+    color: rgb(48, 48, 48);
+    font-family: system-ui;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(199, 224, 248);
+    color: rgb(48, 48, 48);
+    font-family: system-ui;
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+    margin-left: 3rem;
+}
+
+.row1 > * {
+    margin-right: -3rem; 
+}
+
+.row1:hover {
+    background-color: rgb(183, 207, 228);
+}
+
+.row2 > * {
+    margin-right: -3rem; 
+}
+
+.row2:hover {
+    background-color: rgb(183, 207, 228);
+}
+
+.status1 img,
+.status2 img {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.lounge1, 
+.lounge2 {
+    width: 17rem;
+    height: 14rem;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    height: 1.2rem;
+}
+
+.title p {
+    margin: 0; 
+    padding: 0;
+    color:  rgb(48, 48, 48);
+}
+
+.notbusy {
+    font-weight: bold;
+    color: rgb(12, 169, 12);
+    font-size: 1.1rem;
+    height: 1.2rem;
+    margin-top: -1rem;
+}
+
+.verybusy {
+    font-weight: bold;
+    color: rgb(223, 32, 32);
+    font-size: 1.1rem;
+    height: 1.2rem;
+    margin-top: -1rem;
+}
+
+.other1 {
+    font-size: 1rem;
+    height: 1.2rem;
+    color:  rgb(48, 48, 48);
+}
+
+.other2 {
+    font-size: 1rem;
+    height: 1.2rem;
+    color:  rgb(48, 48, 48);
+}
+
+hr {
+    border: 1px solid rgb(166, 166, 166); 
+    margin: 2rem; 
+}
+
+.row3 img {
+    width: 11rem; 
+    height: 11rem; 
+    border-radius: 10px; 
+}
+
+.row3 {
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(199, 224, 248);
+    color: rgb(48, 48, 48);
+    font-family: system-ui;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.other3 {
+    font-size: 1rem;
+    height: 1.2rem;
+    margin-left: -6rem;
+    padding-top: 0.6rem;
+    font-weight: bold;
+    color:  rgb(48, 48, 48);
+}
+
+.other4 {
+    font-size: 1rem;
+    height: 1.2rem;
+    margin-left: -6rem;
+    padding-top: 1.2rem;
+    color:  rgb(48, 48, 48);
+}
+
+.title1 {
+    font-weight: bold;
+    margin-top: 0.7rem;
+    margin-left: -6rem;
+    font-size: 1.2rem;
+    height: 1.2rem;
+}
+
+.title1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+nav {
+    max-height: 3.5rem;;
+}
+
+.menu{
+    margin: 0;
+    height: 3.5rem;
+    background-color: #161c2c;
+    width: 100%;
+    float: left;
+}
+
+.button{
+    font-family: system-ui;
+    font-size: 1em;
+    color: #f0f0f0;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    line-height: 3.5rem;
+}
+
+.button:link{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #272d43;
+}
+
+.active {
+    background-color: #272d43;
+    color: #f0f0f0;
+}
+
+.menu li:last-child .button::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url('https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png'); 
+    background-size: cover;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #1b2236;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navbar, 
+.nav li, 
+.dropdown-menu li,
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    width: 9rem; 
+}
+
+.dropdown-menu a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 0.02rem 1rem; 
+    display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.dropdown-menu a:hover {
+    background-color: #272d43;
+}
